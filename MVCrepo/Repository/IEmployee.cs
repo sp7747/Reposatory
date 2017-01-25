@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MVCrepo.Models;
 namespace MVCrepo.Repository
 {
-    interface IEmployee
+    interface IEmployee :IDisposable
     {
 
 

@@ -13,9 +13,11 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
-          <Property Name="Emp_Name" Type="nvarchar" MaxLength="500" />
-          <Property Name="Emp_Surname" Type="nvarchar" MaxLength="500" />
-          <Property Name="Emp_Dep" Type="nvarchar" MaxLength="500" />
+          <Property Name="Name" Type="nvarchar" MaxLength="500" />
+          <Property Name="Address" Type="nvarchar" MaxLength="500" />
+          <Property Name="Age" Type="nvarchar" MaxLength="500" />
+          <Property Name="Salary" Type="nvarchar" MaxLength="500" />
+          <Property Name="worktype" Type="nvarchar" MaxLength="500" />
         </EntityType>
       </Schema>
     </edmx:StorageModels>
@@ -30,9 +32,11 @@
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
-          <Property Name="Emp_Name" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
-          <Property Name="Emp_Surname" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
-          <Property Name="Emp_Dep" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Name" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Age" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="Salary" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="worktype" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -44,9 +48,11 @@
             <EntityTypeMapping TypeName="IndiaGTModel.EmployeeDetail">
               <MappingFragment StoreEntitySet="EmployeeDetails">
                 <ScalarProperty Name="id" ColumnName="id" />
-                <ScalarProperty Name="Emp_Name" ColumnName="Emp_Name" />
-                <ScalarProperty Name="Emp_Surname" ColumnName="Emp_Surname" />
-                <ScalarProperty Name="Emp_Dep" ColumnName="Emp_Dep" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="worktype" ColumnName="worktype" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

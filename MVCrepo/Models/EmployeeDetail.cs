@@ -15,8 +15,10 @@ namespace MVCrepo.Models
     public partial class EmployeeDetail
     {
         public int id { get; set; }
-        public string Emp_Name { get; set; }
-        public string Emp_Surname { get; set; }
-        public string Emp_Dep { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string Age { get; set; }
+        public string Salary { get; set; }
+        public string worktype { get; set; }
     }
 }
